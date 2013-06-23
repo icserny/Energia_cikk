@@ -1,0 +1,18 @@
+A Launchpad kártyán futó TRHlogger.ino program a PC-vel kommunikál.
+PC oldalon a dht22 Processing alkalmazás fogadja és jeleníti meg a
+kártyától kapott adatokat.
+
+A kibontott dht22.zip állomány  application.windows32 mappájában a 
+dht22.exe egy közvetlenül futtatható program (Windows XP, vagy Win7
+alatt fut, 32 bites Java futtatórendszer kell hozzá.
+
+A program forráskódja a dht22.pde állományban található, melyhez
+szükségesek a waterdrop.jpg és az rxtxSerial.dll állományok, valamint a 
+data mappában található fontok is.
+
+A forráskód lefordításához telepíteni kell a Processing fejlesztõi
+környezetet (processing org). Futtatható exe állományt a File menü
+Export Application menüpontjában állíthatunk elõ (Windows, Linux és 
+Mac Os/X változatban).
+
+A lefordított alkalmazás mellé oda kell másolni a waterdrop.jpg állományt! 
